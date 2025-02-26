@@ -1,4 +1,4 @@
-import { EditIcon, PlusIcon } from "@/assets/Icons";
+import { PlusIcon } from "@/assets/Icons";
 import { useStore } from "@/lib/store";
 import EditPageName from "./EditPageName";
 import Copy from "./Copy";

@@ -1,27 +1,9 @@
-import { Card } from "@/components/ui/card";
 import { useStore } from "@/lib/store";
 import { useEffect, useState } from "react";
 import Page from "./Page/Page";
 import Footer from "./Footer";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuPortal,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/ui/button";
-import { PlusIcon } from "lucide-react";
 
 function App() {
-  const addPage = useStore((state) => state.addPage);
   const pages = useStore((state) => state.pages);
   const [currentPage, setPage] = useState(0);
   useEffect(() => {

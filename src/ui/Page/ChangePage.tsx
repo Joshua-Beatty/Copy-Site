@@ -1,5 +1,4 @@
 import { PlusIcon } from "@/assets/Icons";
-import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,7 +7,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useStore } from "@/lib/store";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 function ChangePage({
   pageId,
