@@ -28,7 +28,7 @@ function EditCopyValue({ pageId, copyId }: { pageId: string; copyId: string }) {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Set Page Name</DialogTitle>
+          <DialogTitle>Edit Copy Value</DialogTitle>
           <DialogDescription>
             <div className="flex flex-col gap-2">
               <h3>Name</h3>
